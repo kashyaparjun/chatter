@@ -9,11 +9,13 @@ chatbot = ChatBot(
     storage_adapter='chatterbot.storage.SQLStorageAdapter',
     logic_adapters=[
         {
-            'import_path': 'chatterbot.logic.BestMatch'
+            "import_path": "chatterbot.logic.BestMatch",
+            "statement_comparison_function": "chatterbot.comparisons.levenshtein_distance",
+            "response_selection_method": "chatterbot.response_selection.get_first_response"
         },
         {
             'import_path': 'chatterbot.logic.LowConfidenceAdapter',
-            'threshold': 0.65,
+            'threshold': 0.5,
             'default_response': 'I am sorry, but I do not understand.'
         }
     ]
@@ -22,7 +24,8 @@ chatbot = ChatBot(
 from chatterbot.trainers import ChatterBotCorpusTrainer
 
 chatbot.set_trainer(ChatterBotCorpusTrainer)
-chatbot.train("./data/qos.yaml")
+chatbot.train("./data/corpus1.yaml")
+chatbot.read_only = True
 
 @app.route("/")
 def home():
@@ -31,7 +34,7 @@ def home():
 @app.route("/get")
 def get_bot_response():
     userText = request.args.get('msg')
-    return str(english_bot.get_response(userText))
+    return str(chatbot.get_response(userText))
 
 
 if __name__ == "__main__":
