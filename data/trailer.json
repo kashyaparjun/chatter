@@ -1,0 +1,108 @@
+{
+  "conversations": [
+    [
+      "what is cybersecurity",
+      "Cyber securities are defined as a group of processes, technologies and practices which are designed in a special way to protect computers, networks, access which are unauthorized and many more.Cyber securities are defined as a group of processes, technologies and practices which are designed in a special way to protect computers, networks, access which are unauthorized and many more."
+    ],
+    [
+      "What does Cyber security work for in a specific organization",
+      "There are mainly three major reasons for which cyber security works: 1. Confidentiality: Whenever information is transmitted from one place to another, a certain level of secrecy is maintained, which is known as confidentiality. 2. Integrity: This means that whenever there is a need for change in any document stored beforehand or new, it can only be done by an authorised person with proper and secure mechanism."
+    ],
+    [
+      "what is botnet",
+      "A botnet is basically known to be a network or a group of computers which are affected by malware and are being constantly monitored by a server which throws the commands. The one is in control of the botnet can impact some serious damage through all those linked computers affected with malware."
+    ],
+    [
+      "Strike the difference between vulnerability, a risk and a threat",
+      "These three terms are interlinked but they are very different from each other: 1. Vulnerability: If your security program has a breach or weakness then different threats can further exploit the program and thus hack into your system to access data that is stored securely. 2. Risk: If your system is not secure enough and has the chances of getting damaged or destruction along with loss of data when a threat exploits the vulnerability, it’s under huge risk. 3. Threat: Something that is necessary for exploiting the vulnerability either knowingly or by accident in order to damage or destroy personal and official data."
+    ],
+    [
+      "How can the two factor authentication be implemented for the public facing websites",
+      "The two factor authentication or shortly abbreviated as 2FA acts as another or an extra seal on your already protected account with a password. This two factor authentication can be implemented on public-facing websites like Microsoft, Twitter, Apple, Google and LinkedIn. For enabling such services, one can easily go to settings and then to manage security settings. Here, you will find the option of enabling two factor authentications."
+    ],
+    [
+      "what is more important Threats or Vulnerabilities",
+      "Despite the advancements in the security systems with the years, the threats and vulnerabilities have only increased with each passing day. Assessing threats is still not under the control of any high-tech security team. Although, a threat rises from vulnerability, so if we have proper control over them, we can still try and control threats. Secondly, the type of threats remains same but the vulnerabilities are what keep on changing. Thus we need to focus on building something that has a proper defence mechanism and also can track down new vulnerabilities"
+    ],
+    [
+      "differences between the Stored XXS and the Reflected XXS",
+      "In case of Stored XXS, since Stored XXS is stored in a page which is static, thus, it is directly pulled out and displayed to the user directly as per needed. On the other hand, in Reflected XXS, the user has to send a request first. Now, this request will start running on the browser of the victim’s computer and then will reflect the results back from the website or the browser to the user who has sent the request."
+    ],
+    [
+      "How does the HTTP control the State",
+      "This is a tricky question. HTTP doesn’t and will never control the state. Answers like cookies are still better. The job of the cookies is to provide a gateway to what HTTP can’t do.  In simpler terms, cookies serve as a hack to what HTTP fails to do."
+    ],
+    [
+      "Describe the 3 major first steps for securing your Linux server",
+      "Every system has its own security software’s so for securing your Linux, the first three steps are: 1. Auditing: A system scan is performed using a tool called Lynis for auditing. Every category is scanned separately and the hardening index is provided to the auditor for further steps. 2. Hardening: After the audit is complete, the system is hardened depending on the level of security it further needs. It is an important process based on the decision of auditor. 3. Compliance: The system needs to be checked almost every day for better results and also lesser threats from security point of view."
+    ],
+    [
+      "What are the techniques used in preventing a brute force login attack",
+      "To avoid brute force login attacks, you generally have three kinds of techniques to go about. The first technique is to implement a policy for account lockout. In this method, an account will be locked out unless and until the administrator himself opens it. The second being progressive delays. In this method, after a few attempts of login, your account will stay locked for the next few number of days. Lastly, use a challenge-response test. This prevents any kind of automatic submissions on the login page."
+    ],
+    [
+      "How can you defend yourself against CSRF attacks",
+      "To defend yourself against CSRF attacks, you can opt for two available methods. Firstly, with every request try to include a random token. In this way a unique string of tokens will be generated which is a good safeguard. Secondly, for each field of form, try using different names. This will somewhat help you in becoming anonymous due to the entry of so many different names and thus will behave as a safeguard from CSRF attacks."
+    ],
+    [
+      "What is the need for DNS monitoring",
+      "The Domain Name System allots your website under a certain domain that is easily recognizable and also keeps the information about other domain names. It works like a directory for everything on the internet. Thus, DNS monitoring is very important since you can easily visit a website without actually having to memorise their IP address.  "
+    ],
+    [
+      "Define the process of Salting and state the use of Salting",
+      "Salting is that process where you extend the length of your passwords by using some special characters. In order to use salting, you must know the entire mechanism of salting and also, it is not that very difficult to be cracked by a person who already knows the concept of salting. The use of salting is to make your passwords stronger and not easy to be cracked if you are someone who is prone to use of simple or ordinary words as passwords."
+    ],
+    [
+      "Symmetric Key Cryptography and Public Key Cryptography",
+      "Both of these cryptography, that is, the Symmetric Key Cryptography and the Public Key Cryptography, does the same job of encrypting and decrypting, thereby, here lies the main difference between them. Thus, the main difference between them is that in Symmetric Key Cryptography, only one key is put into use for encryption and decryption. On the other hand, in the case of Public Key Cryptography, they make use of two different keys. The public key for encryption and the private key for decryption. Generally, the Symmetric Key Cryptography is known to be faster and simpler."
+    ],
+    [
+      "working of Traceroute",
+      "Small Time To Live (TTL) values are transmitted through packets via traceroute. This process prevents the packets from getting into loops. After the router subtracts from the given packet’s TTL, the packet immediately expires after the TTL reaches absolute zero. After that the sender is sent messages from Traceroute that exceed the time. When small values of TTL are used, the expiration happens quickly and thus the traceroute generates ICMP messages for identifying the router. "
+    ],
+    [
+      "prevent the 'Man-in-the-Middle' attack",
+      "Commonly known as the 'Bucket Brigade Attack', this attack happens through a man who is in between two different parties and controls the complete conversation without the two ends even realising that. The first method to prevent this attack would be to have an end to end encryption between both the parties. This way, they both will have an idea with whom they are talking because of the digital verification. Secondly, to prevent this, it is best to avoid open Wi-Fi networks and if it is necessary then use plugins like HTTPS, Forced TLS etc. "
+    ],
+    [
+      "encoding, hashing and encryption",
+      "1. Encoding: Encoding converts the data in a desired format required for exchange between different systems. This doesn’t convert it into a secret data, but usable data. It can be further decoded through the same tools when necessary. 2. Hashing: This serves for maintaining the integrity of a message or data. This way if any day it is hampered or changed, you will get to know. 3. Encryption: Encryption ensures that the data is secure and one needs a digital verification code or image in order to open or access it."
+    ],
+    [
+      "SSL and HTTPS",
+      "SSL (Secure Sockets Layer) is a protocol which enables safe conversations between two or more parties over the internet. HTTPS (Hypertext Transfer Protocol Secure) is HTTP combined with SSL which provides you with a safer browsing experience with encryption. So, this is a very tricky question but SSL wins in terms of security."
+    ],
+    [
+      "In encryption and compression of data during transmission, which of them would you do first",
+      "If I had the option to encrypt and compress data, I would first compress the data. This is because of encrypting a data we obtain a stream of bits which are random. Now, these random bits become impossible to be compressed, in other words, they are incompressible. The reason to why these random bits become incompressible is because of the lack of any patterned structure. Compressing data always requires any specific pattern to be compressed which is lacked in random bits."
+    ],
+    [
+      "more secure An open source project or a proprietary project",
+      "The securities of these projects depends mainly on the size of the project, the total number of the developers who are working under this project and the one factor, which is most essential as well as important, is the control of the quality. Just the type of project won’t determine its quality, the inside matter of the corresponding projects will matter. "
+    ],
+    [
+      "Cybersecurity related news",
+      "There are several places from where one might get the best cybersecurity news from but it is important to remember not all of it is correct and precise. So, for the best news related to cybersecurity you can go for Reddit, Team Cymru, Twitter etc. You have to be on top of the news count so that you don’t wait for one to inform you about the recent changes."
+    ],
+    [
+      "Diffie-Hellman and RSA",
+      "The basic difference which lies in both of these is the type of protocol they are. RSA is a protocol which is used for signing or encryption. On the other hand, Diffie-Hellman is a protocol which is used for exchange of key. Also, the RSA will expect that you have all the key materials with you beforehand, which is not the case with Diffie-Hellman"
+    ],
+    [
+      "access Active directory from Linux",
+      "It is quite surprising but you can use Active directory from Linux or iOS system or any other system apart from windows. The directory makes use of the SMB protocol which further can be accessed from a non-windows platform with the help of the Samba program."
+    ],
+    [
+      "using SSH from Windows better",
+      "SSH is a connection used on different platforms on appliances for the best security. This hardens your security system against any threat and works well with Routers, SFTP and switches. It works the best with Windows although is compatible with other platforms too."
+    ],
+    [
+      "make the user authentication process more secure",
+      "User authentication may sound very secure but it is not so secure. You need just the username and password to break into or hack into the authentication of that person. The main way of hardening is by choosing the password accordingly. You can either generate memorable passwords which are secure, passwords based on algorithm, making the use of password vaults, using authentications which are multifactor and highly secure and alternate embedding of the alphabets of a specific memorable word, are the best ways of hardening user authentication."
+    ],
+    [
+      "Is SSL enough for your security",
+      "SSL is meant to verify the sender’s identity but it doesn’t search in a hard way for more hazards. SSL will be able to track down the real person you are talking to but that too can be tricked at times. TLS is another identity verification tool which works the same as SSL but better than it. This provides some additional protection to the data so that no breaches are formed."
+    ]
+  ]
+}
