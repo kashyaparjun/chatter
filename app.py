@@ -20,7 +20,7 @@ chatbot = ChatBot(
         },
         {
             'import_path': 'chatterbot.logic.LowConfidenceAdapter',
-            'threshold': 0.5,
+            'threshold': 0.65,
             'default_response': 'I am sorry, but I do not understand.'
         }
     ],
@@ -32,7 +32,7 @@ from chatterbot.trainers import ChatterBotCorpusTrainer
 
 chatbot.set_trainer(ChatterBotCorpusTrainer)
 temp = [
-    "./data/trailer.json"
+    "trailer.json"
 ]
 chatbot.train(temp)
 chatbot.read_only = True
